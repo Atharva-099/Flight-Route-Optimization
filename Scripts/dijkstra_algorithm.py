@@ -67,11 +67,8 @@ def find_shortest_path(graph, source, destination):
         print(f"No path found between {source} and {destination}.")
         return None
 
-routes_file_path = "Data/routes.dat"   #"D:/Flight Route Optimization/Data/routes.dat"
+routes_file_path = "D:/Flight Route Optimization/Data/routes.dat"
 routes_data = load_routes_data(routes_file_path)
 
 graph = create_graph(routes_data)
 
-git add Scripts/dijkstra_algorithm.py
-git commit -m "Updated file path for routes.dat to use relative path"
-git push origin main
