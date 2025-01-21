@@ -1,2 +1,4 @@
 venv/
 Scripts/random_forest_model.pkl
+*.pyc
+__pycache__/
